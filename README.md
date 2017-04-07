@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-=======
-# pythonweb_learning
-    pythonweb_learning
-    
-   
->>>>>>> 3bec43533794f8db48b2e919409cdc6b75534d0b
+
 0. 打開終端機（terminal, cmder, iterm2）
 1. 移動到資料夾
 $ cd 專案資料夾名稱
