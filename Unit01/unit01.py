@@ -9,7 +9,7 @@ try:
 
  if you_choice == 0:
     the_choice = int(input('請問要出？0.剪刀 1.石頭 2.布'))
-    
+
     if the_choice == 0:
       print('你出的是「剪刀」！')
       if computer_choice == 0:
@@ -18,8 +18,8 @@ try:
         print('電腦出「石頭」！，你輸了！')
       elif computer_choice == 2:
         print('電腦出「布」！，太棒了，你勝利了！')
-        
-        
+
+
     if the_choice == 1:
       print('你出的是「石頭」！')
       if computer_choice == 0:
@@ -28,8 +28,8 @@ try:
         print('電腦也出「石頭」！，平手！')
       elif computer_choice == 2:
         print('電腦出「布」！，你輸了！')
-        
-        
+
+
     if the_choice == 2:
       print('你出的是「布」！')
       if computer_choice == 0:
@@ -38,11 +38,9 @@ try:
         print('電腦出「石頭」！，太棒了，你勝利了！')
       elif computer_choice == 2:
         print('電腦也出「布」！，平手！')
-  
+
  elif you_choice == 1:
     print('剪刀、石頭、布，程式結束')
 
 except ValueError:
   print("請輸入數字")
-
-  
