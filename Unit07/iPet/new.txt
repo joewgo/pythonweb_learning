@@ -1,0 +1,38 @@
+python -m http.server 7777
+
+請問單元9 iPet 寵物失蹤資料的網址是如何呢？
+陳志强．8天前 0
+4
+
+我找到的是 
+
+http://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=127
+
+放在程式碼中會出現以下錯誤
+
+XMLHttpRequest cannot load http://data.coa.gov.tw/Service/OpenData/DataFileService.aspx?UnitId=127. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:7777' is therefore not allowed access.
+
+不知到是我的程式有打錯還是因為網址不同的關係呢？
+yuanlin． 8天前
+1
+應該是這一個 http://163.29.157.32:8080/dataset/6a3e862a-e1cb-4e44-b989-d35609559463/resource/f4a75ba9-7721-4363-884d-c3820b0b917c/download/393625397fc043188a3f8237c1da1c6f.json
+阿真． 6天前
+0
+你的問題應該是Ajax在做跨網域請求的時候 會發生的問題 這是瀏覽器為了安全性所做的防護機制 我javascript不熟不知道如何解 麻煩熟javascript的大大們提點一下 直接用IP連似乎沒有問題?
+陳志强． 6天前
+0
+yuanlin 謝謝您
+授課老師 張凱迪 kdchang． 6天前
+0
+您好
+
+謝謝 Yuan 和 阿真！
+
+關於課程程式碼可以參考：
+https://github.com/kdchang/python101
+https://github.com/kdchang/python101/tree/master/python101-live
+
+目前大部分政府公開資料都沒有提供跨來源資源共享(Cross-Origin Resource Sharing, CORS) 功能，所以只能用 http://163.29.157.32:8080 方式存取當做練習。
+
+關於 CORS：
+https://zh.wikipedia.org/wiki/%E8%B7%A8%E4%BE%86%E6%BA%90%E8%B3%87%E6%BA%90%E5%85%B1%E4%BA%AB
