@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd   #用來做資料分析的工具，
 import time
-url = 'http://www.tse.com.tw/ch/trading/exchange/BWIBBU/BWIBBU.php'
+url = 'http://www.tse.com.tw/zh/page/trading/exchange/BWIBBU.html'
 
 def parseTSE(year, month, no):
     year = str(year)
