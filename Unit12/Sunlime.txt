@@ -1,0 +1,6 @@
+Sublime Text3 預設不支援　BIG5 編碼
+可以試著安裝　ConvertToUTF8 套件
+
+我用ATOM 可以按下方UTF-8 按下後選Auto Detect
+就會自動調整成正確的編碼了
+本單元１２下載的文件，調整成BIG5 了
