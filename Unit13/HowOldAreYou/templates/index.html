@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>How Old Are You ?</title>
+    <link rel="stylesheet" type= "text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+          <h1>How Old Are You ?</h1>
+          <form class="" action="/upload" enctype="multipart/form-data" method="post">
+            <input type="file" name="img" value="">
+            <hr>
+            <button class="btn btn-primary">上傳圖片</button>
+
+          </form>
+          <hr>
+          {% if result %}
+            <img src="{{ filename }}">
+          {% endif %}
+    </div>
+  </body>
+  <!--
+  <img src="/static/images/{{ filename }}">
+  filename 已經有回傳正確的路徑了，所以前"/static/images/ 要省略掉
+-->
+</html>

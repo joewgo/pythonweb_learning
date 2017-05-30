@@ -1,0 +1,5 @@
+https://anaconda.org/menpo/opencv3
+conda install -c menpo opencv3
+
+
+/home/xun/anaconda3/pkgs/opencv3-3.2.0-np111py35_0/share/OpenCV/haarcascades
