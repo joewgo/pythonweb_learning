@@ -5,8 +5,7 @@ $ cd 專案資料夾名稱
 $ git init 
 3. 加入 github 遠端位置
 $ git remote add origin 你的 github repo 位置
-# 範例：git remote add origin https://github.com/您的帳號/test-debug-pygame.git
-git remote add origin <您的GitHub倉庫網址>
+
 4. 將檔案加入 git track
 $ git add .
 4. 將檔案 commit 進 git 版本庫
